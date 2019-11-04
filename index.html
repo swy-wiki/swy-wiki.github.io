@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="zh-cn">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="食物语食魂膳具数值计算器">
+  <title>食物语计算器</title>
+
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <link href="css/calc.css" rel="stylesheet">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="js/bswindow.js"></script>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row no-gutter">
+      <div class="d-none d-md-flex col-md-4 col-lg-6 bg-image"></div>
+      <div class="col-md-8 col-lg-6">
+        <div class="login d-flex align-items-center py-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-9 col-lg-8 mx-auto">
+                <h3 class="login-heading mb-4">食魂数值计算器</h3>
+                <form>
+                  <div class="form-label-group">
+                    <input type="text" id="Qty" name="Qty" class="form-control" placeholder="食魂姓名" list="shs" required autofocus>
+                    <label for="Qty">食魂姓名</label>
+                    <datalist id="shs" style="display:none;">
+                    </datalist>
+                    <script type="text/javascript">
+                      $.getJSON("data/value.json", function(data) {
+                        $data = data;
+                        var sh_names = Object.keys($data);
+                        var options = '';
+                        for (var i = 0; i < sh_names.length; i++)
+                          options += '<option value="' + sh_names[i] + '" />';
+                        document.getElementById('shs').innerHTML = options;
+                      });
+                    </script>
+                  </div>
+
+                  <div class="form-label-group">
+                    <input type="number" id="Level" name="Level" class="form-control" placeholder="食魂等级" step="1" min="1" max="100" required>
+                    <label for="Level">食魂等级</label>
+                  </div>
+
+                  <div class="custom-control custom-checkbox mb-3">
+                    <input type="checkbox" class="custom-control-input" id="Starred">
+                    <label class="custom-control-label" for="Starred">食魂已升星</label>
+                  </div>
+                  <button id="btnCalc" name="btnCalc" class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" type="button">计算</button>
+                  <div class="text-center">
+                    <a class="small" href="calc_sj.html">进入膳具数值计算器</a></div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/calc_sh.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,4214 @@
+{
+    "调料": {
+        "id": 9999,
+        "name": "调料",
+        "hp_bonus": 800,
+        "atk_bonus": 800,
+        "def_bonus": 800,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1000,
+        "dodge_bonus": 1000,
+        "attr_level": "c#c#c#c#c#c",
+        "rare": 5,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 100
+        }
+    },
+    "鹄羹": {
+        "id": 2099,
+        "name": "鹄羹",
+        "hp_bonus": 1054,
+        "atk_bonus": 1014,
+        "def_bonus": 860,
+        "critic_bonus": 800,
+        "critic_dmg_bonus": 1200,
+        "dodge_bonus": 1000,
+        "attr_level": "b#b#b#a#c#a",
+        "rare": 3,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+          "hp": 125,
+          "atk": 20,
+          "def": 10,
+          "critic": 0,
+          "critic_dmg": 60,
+          "dodge": 10
+        },
+        "rank3": {
+          "hp": 375,
+          "atk": 60,
+          "def": 30,
+          "critic": 0,
+          "critic_dmg": 180,
+          "dodge": 30
+        },
+        "rank4": {
+          "hp": 750,
+          "atk": 120,
+          "def": 60,
+          "critic": 0,
+          "critic_dmg": 360,
+          "dodge": 60
+        },
+        "rank5": {
+          "hp": 1250,
+          "atk": 200,
+          "def": 100,
+          "critic": 0,
+          "critic_dmg": 600,
+          "dodge": 100
+        }
+    },
+    "四喜丸子": {
+        "id": 2001,
+        "name": "四喜丸子",
+        "hp_bonus": 933,
+        "atk_bonus": 1037,
+        "def_bonus": 1030,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1000,
+        "dodge_bonus": 1000,
+        "attr_level": "b#b#b#a#c#a",
+        "rare": 4,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 175,
+            "atk": 10,
+            "def": 15,
+            "critic": 15,
+            "critic_dmg": 0,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 525,
+            "atk": 30,
+            "def": 45,
+            "critic": 45,
+            "critic_dmg": 0,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 1050,
+            "atk": 60,
+            "def": 90,
+            "critic": 90,
+            "critic_dmg": 0,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 1750,
+            "atk": 100,
+            "def": 150,
+            "critic": 150,
+            "critic_dmg": 0,
+            "dodge": 100
+        }
+    },
+    "蟹黄汤包": {
+        "id": 2002,
+        "name": "蟹黄汤包",
+        "hp_bonus": 974,
+        "atk_bonus": 1035,
+        "def_bonus": 950,
+        "critic_bonus": 800,
+        "critic_dmg_bonus": 1200,
+        "dodge_bonus": 1000,
+        "attr_level": "b#b#c#c#a#a",
+        "rare": 3,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 125,
+            "atk": 20,
+            "def": 10,
+            "critic": 0,
+            "critic_dmg": 60,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 375,
+            "atk": 60,
+            "def": 30,
+            "critic": 0,
+            "critic_dmg": 180,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 750,
+            "atk": 120,
+            "def": 60,
+            "critic": 0,
+            "critic_dmg": 360,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 1250,
+            "atk": 200,
+            "def": 100,
+            "critic": 0,
+            "critic_dmg": 600,
+            "dodge": 100
+        }
+    },
+    "饺子": {
+        "id": 2003,
+        "name": "饺子",
+        "hp_bonus": 925,
+        "atk_bonus": 1064,
+        "def_bonus": 970,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1000,
+        "dodge_bonus": 1000,
+        "attr_level": "b#b#b#a#c#a",
+        "rare": 2,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 175,
+            "atk": 10,
+            "def": 15,
+            "critic": 15,
+            "critic_dmg": 0,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 525,
+            "atk": 30,
+            "def": 45,
+            "critic": 45,
+            "critic_dmg": 0,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 1050,
+            "atk": 60,
+            "def": 90,
+            "critic": 90,
+            "critic_dmg": 0,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 1750,
+            "atk": 100,
+            "def": 150,
+            "critic": 150,
+            "critic_dmg": 0,
+            "dodge": 100
+        }
+    },
+    "佛跳墙": {
+        "id": 2004,
+        "name": "佛跳墙",
+        "hp_bonus": 954,
+        "atk_bonus": 1054,
+        "def_bonus": 940,
+        "critic_bonus": 1200,
+        "critic_dmg_bonus": 1200,
+        "dodge_bonus": 600,
+        "attr_level": "b#s#b#s#a#c",
+        "rare": 5,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 75,
+            "atk": 25,
+            "def": 10,
+            "critic": 15,
+            "critic_dmg": 60,
+            "dodge": 0
+        },
+        "rank3": {
+            "hp": 225,
+            "atk": 75,
+            "def": 30,
+            "critic": 45,
+            "critic_dmg": 180,
+            "dodge": 0
+        },
+        "rank4": {
+            "hp": 450,
+            "atk": 150,
+            "def": 60,
+            "critic": 90,
+            "critic_dmg": 360,
+            "dodge": 0
+        },
+        "rank5": {
+            "hp": 750,
+            "atk": 250,
+            "def": 100,
+            "critic": 150,
+            "critic_dmg": 600,
+            "dodge": 0
+        }
+    },
+    "带把肘子": {
+        "id": 2005,
+        "name": "带把肘子",
+        "hp_bonus": 952,
+        "atk_bonus": 1007,
+        "def_bonus": 1080,
+        "critic_bonus": 800,
+        "critic_dmg_bonus": 1000,
+        "dodge_bonus": 1000,
+        "attr_level": "a#b#s#c#c#a",
+        "rare": 4,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 250,
+            "atk": 5,
+            "def": 25,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 750,
+            "atk": 15,
+            "def": 75,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 1500,
+            "atk": 30,
+            "def": 150,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 2500,
+            "atk": 50,
+            "def": 250,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 100
+        }
+    },
+    "叫花鸡": {
+        "id": 2006,
+        "name": "叫花鸡",
+        "hp_bonus": 1085,
+        "atk_bonus": 987,
+        "def_bonus": 880,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1000,
+        "dodge_bonus": 600,
+        "attr_level": "s#b#b#a#c#c",
+        "rare": 4,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 200,
+            "atk": 15,
+            "def": 20,
+            "critic": 15,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank3": {
+            "hp": 600,
+            "atk": 45,
+            "def": 60,
+            "critic": 45,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank4": {
+            "hp": 1200,
+            "atk": 90,
+            "def": 120,
+            "critic": 90,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank5": {
+            "hp": 2000,
+            "atk": 150,
+            "def": 200,
+            "critic": 150,
+            "critic_dmg": 0,
+            "dodge": 0
+        }
+    },
+    "龙井虾仁": {
+        "id": 2007,
+        "name": "龙井虾仁",
+        "hp_bonus": 921,
+        "atk_bonus": 1098,
+        "def_bonus": 890,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1200,
+        "dodge_bonus": 600,
+        "attr_level": "b#ss#b#a#a#c",
+        "rare": 5,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 75,
+            "atk": 25,
+            "def": 10,
+            "critic": 15,
+            "critic_dmg": 60,
+            "dodge": 0
+        },
+        "rank3": {
+            "hp": 225,
+            "atk": 75,
+            "def": 30,
+            "critic": 45,
+            "critic_dmg": 180,
+            "dodge": 0
+        },
+        "rank4": {
+            "hp": 450,
+            "atk": 150,
+            "def": 60,
+            "critic": 90,
+            "critic_dmg": 360,
+            "dodge": 0
+        },
+        "rank5": {
+            "hp": 750,
+            "atk": 250,
+            "def": 100,
+            "critic": 150,
+            "critic_dmg": 600,
+            "dodge": 0
+        }
+    },
+    "青团": {
+        "id": 2008,
+        "name": "青团",
+        "hp_bonus": 922,
+        "atk_bonus": 1035,
+        "def_bonus": 1060,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1000,
+        "dodge_bonus": 1000,
+        "attr_level": "b#c#b#a#c#a",
+        "rare": 2,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 175,
+            "atk": 10,
+            "def": 15,
+            "critic": 15,
+            "critic_dmg": 0,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 525,
+            "atk": 30,
+            "def": 45,
+            "critic": 45,
+            "critic_dmg": 0,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 1050,
+            "atk": 60,
+            "def": 90,
+            "critic": 90,
+            "critic_dmg": 0,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 1750,
+            "atk": 100,
+            "def": 150,
+            "critic": 150,
+            "critic_dmg": 0,
+            "dodge": 100
+        }
+    },
+    "德州扒鸡": {
+        "id": 2009,
+        "name": "德州扒鸡",
+        "hp_bonus": 1062,
+        "atk_bonus": 933,
+        "def_bonus": 1090,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1200,
+        "dodge_bonus": 600,
+        "attr_level": "a#a#a#a#a#c",
+        "rare": 5,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 75,
+            "atk": 25,
+            "def": 10,
+            "critic": 15,
+            "critic_dmg": 60,
+            "dodge": 0
+        },
+        "rank3": {
+            "hp": 225,
+            "atk": 75,
+            "def": 30,
+            "critic": 45,
+            "critic_dmg": 180,
+            "dodge": 0
+        },
+        "rank4": {
+            "hp": 450,
+            "atk": 150,
+            "def": 60,
+            "critic": 90,
+            "critic_dmg": 360,
+            "dodge": 0
+        },
+        "rank5": {
+            "hp": 750,
+            "atk": 250,
+            "def": 100,
+            "critic": 150,
+            "critic_dmg": 600,
+            "dodge": 0
+        }
+    },
+    "腊味合蒸": {
+        "id": 2010,
+        "name": "腊味合蒸",
+        "hp_bonus": 990,
+        "atk_bonus": 1024,
+        "def_bonus": 950,
+        "critic_bonus": 800,
+        "critic_dmg_bonus": 1200,
+        "dodge_bonus": 1000,
+        "attr_level": "a#s#b#c#a#a",
+        "rare": 5,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 125,
+            "atk": 20,
+            "def": 10,
+            "critic": 0,
+            "critic_dmg": 60,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 375,
+            "atk": 60,
+            "def": 30,
+            "critic": 0,
+            "critic_dmg": 180,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 750,
+            "atk": 120,
+            "def": 60,
+            "critic": 0,
+            "critic_dmg": 360,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 1250,
+            "atk": 200,
+            "def": 100,
+            "critic": 0,
+            "critic_dmg": 600,
+            "dodge": 100
+        }
+    },
+    "臭鳜鱼": {
+        "id": 2011,
+        "name": "臭鳜鱼",
+        "hp_bonus": 906,
+        "atk_bonus": 1057,
+        "def_bonus": 1030,
+        "critic_bonus": 800,
+        "critic_dmg_bonus": 1200,
+        "dodge_bonus": 1000,
+        "attr_level": "b#a#b#c#a#a",
+        "rare": 4,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 125,
+            "atk": 20,
+            "def": 10,
+            "critic": 0,
+            "critic_dmg": 60,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 375,
+            "atk": 60,
+            "def": 30,
+            "critic": 0,
+            "critic_dmg": 180,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 750,
+            "atk": 120,
+            "def": 60,
+            "critic": 0,
+            "critic_dmg": 360,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 1250,
+            "atk": 200,
+            "def": 100,
+            "critic": 0,
+            "critic_dmg": 600,
+            "dodge": 100
+        }
+    },
+    "锅包肉": {
+        "id": 2012,
+        "name": "锅包肉",
+        "hp_bonus": 961,
+        "atk_bonus": 1014,
+        "def_bonus": 1040,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1200,
+        "dodge_bonus": 600,
+        "attr_level": "b#a#b#a#a#c",
+        "rare": 4,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 75,
+            "atk": 25,
+            "def": 10,
+            "critic": 15,
+            "critic_dmg": 60,
+            "dodge": 0
+        },
+        "rank3": {
+            "hp": 225,
+            "atk": 75,
+            "def": 30,
+            "critic": 45,
+            "critic_dmg": 180,
+            "dodge": 0
+        },
+        "rank4": {
+            "hp": 450,
+            "atk": 150,
+            "def": 60,
+            "critic": 90,
+            "critic_dmg": 360,
+            "dodge": 0
+        },
+        "rank5": {
+            "hp": 750,
+            "atk": 250,
+            "def": 100,
+            "critic": 150,
+            "critic_dmg": 600,
+            "dodge": 0
+        }
+    },
+    "松鼠鳜鱼": {
+        "id": 2013,
+        "name": "松鼠鳜鱼",
+        "hp_bonus": 918,
+        "atk_bonus": 1120,
+        "def_bonus": 840,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1000,
+        "dodge_bonus": 1000,
+        "attr_level": "b#a#b#a#c#a",
+        "rare": 4,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 175,
+            "atk": 10,
+            "def": 15,
+            "critic": 15,
+            "critic_dmg": 0,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 525,
+            "atk": 30,
+            "def": 45,
+            "critic": 45,
+            "critic_dmg": 0,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 1050,
+            "atk": 60,
+            "def": 90,
+            "critic": 90,
+            "critic_dmg": 0,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 1750,
+            "atk": 100,
+            "def": 150,
+            "critic": 150,
+            "critic_dmg": 0,
+            "dodge": 100
+        }
+    },
+    "北京烤鸭": {
+        "id": 2014,
+        "name": "北京烤鸭",
+        "hp_bonus": 859,
+        "atk_bonus": 1090,
+        "def_bonus": 1050,
+        "critic_bonus": 800,
+        "critic_dmg_bonus": 1200,
+        "dodge_bonus": 1000,
+        "attr_level": "b#s#a#c#a#a",
+        "rare": 5,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 125,
+            "atk": 20,
+            "def": 10,
+            "critic": 0,
+            "critic_dmg": 60,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 375,
+            "atk": 60,
+            "def": 30,
+            "critic": 0,
+            "critic_dmg": 180,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 750,
+            "atk": 120,
+            "def": 60,
+            "critic": 0,
+            "critic_dmg": 360,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 1250,
+            "atk": 200,
+            "def": 100,
+            "critic": 0,
+            "critic_dmg": 600,
+            "dodge": 100
+        }
+    },
+    "灯影牛肉": {
+        "id": 2015,
+        "name": "灯影牛肉",
+        "hp_bonus": 1043,
+        "atk_bonus": 1024,
+        "def_bonus": 850,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1200,
+        "dodge_bonus": 600,
+        "attr_level": "b#a#c#a#a#c",
+        "rare": 4,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 75,
+            "atk": 25,
+            "def": 10,
+            "critic": 15,
+            "critic_dmg": 60,
+            "dodge": 0
+        },
+        "rank3": {
+            "hp": 225,
+            "atk": 75,
+            "def": 30,
+            "critic": 45,
+            "critic_dmg": 180,
+            "dodge": 0
+        },
+        "rank4": {
+            "hp": 450,
+            "atk": 150,
+            "def": 60,
+            "critic": 90,
+            "critic_dmg": 360,
+            "dodge": 0
+        },
+        "rank5": {
+            "hp": 750,
+            "atk": 250,
+            "def": 100,
+            "critic": 150,
+            "critic_dmg": 600,
+            "dodge": 0
+        }
+    },
+    "符离集烧鸡": {
+        "id": 2016,
+        "name": "符离集烧鸡",
+        "hp_bonus": 924,
+        "atk_bonus": 1116,
+        "def_bonus": 840,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1200,
+        "dodge_bonus": 600,
+        "attr_level": "b#s#c#a#a#c",
+        "rare": 4,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 75,
+            "atk": 25,
+            "def": 10,
+            "critic": 15,
+            "critic_dmg": 60,
+            "dodge": 0
+        },
+        "rank3": {
+            "hp": 225,
+            "atk": 75,
+            "def": 30,
+            "critic": 45,
+            "critic_dmg": 180,
+            "dodge": 0
+        },
+        "rank4": {
+            "hp": 450,
+            "atk": 150,
+            "def": 60,
+            "critic": 90,
+            "critic_dmg": 360,
+            "dodge": 0
+        },
+        "rank5": {
+            "hp": 750,
+            "atk": 250,
+            "def": 100,
+            "critic": 150,
+            "critic_dmg": 600,
+            "dodge": 0
+        }
+    },
+    "一品锅": {
+        "id": 2017,
+        "name": "一品锅",
+        "hp_bonus": 955,
+        "atk_bonus": 1035,
+        "def_bonus": 990,
+        "critic_bonus": 800,
+        "critic_dmg_bonus": 1200,
+        "dodge_bonus": 1000,
+        "attr_level": "a#s#b#c#a#a",
+        "rare": 5,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 125,
+            "atk": 20,
+            "def": 10,
+            "critic": 0,
+            "critic_dmg": 60,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 375,
+            "atk": 60,
+            "def": 30,
+            "critic": 0,
+            "critic_dmg": 180,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 750,
+            "atk": 120,
+            "def": 60,
+            "critic": 0,
+            "critic_dmg": 360,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 1250,
+            "atk": 200,
+            "def": 100,
+            "critic": 0,
+            "critic_dmg": 600,
+            "dodge": 100
+        }
+    },
+    "鱼香肉丝": {
+        "id": 2018,
+        "name": "鱼香肉丝",
+        "hp_bonus": 888,
+        "atk_bonus": 1098,
+        "def_bonus": 960,
+        "critic_bonus": 800,
+        "critic_dmg_bonus": 1200,
+        "dodge_bonus": 1000,
+        "attr_level": "b#a#c#c#a#a",
+        "rare": 3,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 125,
+            "atk": 20,
+            "def": 10,
+            "critic": 0,
+            "critic_dmg": 60,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 375,
+            "atk": 60,
+            "def": 30,
+            "critic": 0,
+            "critic_dmg": 180,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 750,
+            "atk": 120,
+            "def": 60,
+            "critic": 0,
+            "critic_dmg": 360,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 1250,
+            "atk": 200,
+            "def": 100,
+            "critic": 0,
+            "critic_dmg": 600,
+            "dodge": 100
+        }
+    },
+    "金玉满堂": {
+        "id": 2019,
+        "name": "金玉满堂",
+        "hp_bonus": 909,
+        "atk_bonus": 1039,
+        "def_bonus": 1080,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1000,
+        "dodge_bonus": 600,
+        "attr_level": "a#a#s#a#c#c",
+        "rare": 5,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 175,
+            "atk": 10,
+            "def": 15,
+            "critic": 15,
+            "critic_dmg": 0,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 525,
+            "atk": 30,
+            "def": 45,
+            "critic": 45,
+            "critic_dmg": 0,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 1050,
+            "atk": 60,
+            "def": 90,
+            "critic": 90,
+            "critic_dmg": 0,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 1750,
+            "atk": 100,
+            "def": 150,
+            "critic": 150,
+            "critic_dmg": 0,
+            "dodge": 100
+        }
+    },
+    "东坡肉": {
+        "id": 2020,
+        "name": "东坡肉",
+        "hp_bonus": 942,
+        "atk_bonus": 1021,
+        "def_bonus": 1060,
+        "critic_bonus": 800,
+        "critic_dmg_bonus": 1000,
+        "dodge_bonus": 1000,
+        "attr_level": "a#b#s#c#c#a",
+        "rare": 4,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 250,
+            "atk": 5,
+            "def": 25,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 750,
+            "atk": 15,
+            "def": 75,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 1500,
+            "atk": 30,
+            "def": 150,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 2500,
+            "atk": 50,
+            "def": 250,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 100
+        }
+    },
+    "鸡茸金丝笋": {
+        "id": 2021,
+        "name": "鸡茸金丝笋",
+        "hp_bonus": 845,
+        "atk_bonus": 1173,
+        "def_bonus": 870,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1200,
+        "dodge_bonus": 600,
+        "attr_level": "b#ss#b#a#a#c",
+        "rare": 5,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 75,
+            "atk": 25,
+            "def": 10,
+            "critic": 15,
+            "critic_dmg": 60,
+            "dodge": 0
+        },
+        "rank3": {
+            "hp": 225,
+            "atk": 75,
+            "def": 30,
+            "critic": 45,
+            "critic_dmg": 180,
+            "dodge": 0
+        },
+        "rank4": {
+            "hp": 450,
+            "atk": 150,
+            "def": 60,
+            "critic": 90,
+            "critic_dmg": 360,
+            "dodge": 0
+        },
+        "rank5": {
+            "hp": 750,
+            "atk": 250,
+            "def": 100,
+            "critic": 150,
+            "critic_dmg": 600,
+            "dodge": 0
+        }
+    },
+    "春卷": {
+        "id": 2022,
+        "name": "春卷",
+        "hp_bonus": 898,
+        "atk_bonus": 1129,
+        "def_bonus": 860,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1000,
+        "dodge_bonus": 1000,
+        "attr_level": "b#b#c#a#c#a",
+        "rare": 2,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 175,
+            "atk": 10,
+            "def": 15,
+            "critic": 15,
+            "critic_dmg": 0,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 525,
+            "atk": 30,
+            "def": 45,
+            "critic": 45,
+            "critic_dmg": 0,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 1050,
+            "atk": 60,
+            "def": 90,
+            "critic": 90,
+            "critic_dmg": 0,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 1750,
+            "atk": 100,
+            "def": 150,
+            "critic": 150,
+            "critic_dmg": 0,
+            "dodge": 100
+        }
+    },
+    "蚵仔煎": {
+        "id": 2023,
+        "name": "蚵仔煎",
+        "hp_bonus": 1166,
+        "atk_bonus": 889,
+        "def_bonus": 1050,
+        "critic_bonus": 800,
+        "critic_dmg_bonus": 1000,
+        "dodge_bonus": 1000,
+        "attr_level": "s#c#a#c#c#a",
+        "rare": 3,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 250,
+            "atk": 5,
+            "def": 25,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 750,
+            "atk": 15,
+            "def": 75,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 1500,
+            "atk": 30,
+            "def": 150,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 2500,
+            "atk": 50,
+            "def": 250,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 100
+        }
+    },
+    "担仔面": {
+        "id": 2024,
+        "name": "担仔面",
+        "hp_bonus": 871,
+        "atk_bonus": 1112,
+        "def_bonus": 960,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1000,
+        "dodge_bonus": 1000,
+        "attr_level": "b#b#b#a#c#a",
+        "rare": 3,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 175,
+            "atk": 10,
+            "def": 15,
+            "critic": 15,
+            "critic_dmg": 0,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 525,
+            "atk": 30,
+            "def": 45,
+            "critic": 45,
+            "critic_dmg": 0,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 1050,
+            "atk": 60,
+            "def": 90,
+            "critic": 90,
+            "critic_dmg": 0,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 1750,
+            "atk": 100,
+            "def": 150,
+            "critic": 150,
+            "critic_dmg": 0,
+            "dodge": 100
+        }
+    },
+    "汤圆": {
+        "id": 2025,
+        "name": "汤圆",
+        "hp_bonus": 932,
+        "atk_bonus": 1041,
+        "def_bonus": 1020,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1000,
+        "dodge_bonus": 1000,
+        "attr_level": "b#b#b#a#c#a",
+        "rare": 2,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 175,
+            "atk": 10,
+            "def": 15,
+            "critic": 15,
+            "critic_dmg": 0,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 525,
+            "atk": 30,
+            "def": 45,
+            "critic": 45,
+            "critic_dmg": 0,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 1050,
+            "atk": 60,
+            "def": 90,
+            "critic": 90,
+            "critic_dmg": 0,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 1750,
+            "atk": 100,
+            "def": 150,
+            "critic": 150,
+            "critic_dmg": 0,
+            "dodge": 100
+        }
+    },
+    "驴打滚": {
+        "id": 2026,
+        "name": "驴打滚",
+        "hp_bonus": 852,
+        "atk_bonus": 1179,
+        "def_bonus": 840,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1200,
+        "dodge_bonus": 600,
+        "attr_level": "c#a#c#a#a#c",
+        "rare": 2,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 75,
+            "atk": 25,
+            "def": 10,
+            "critic": 15,
+            "critic_dmg": 60,
+            "dodge": 0
+        },
+        "rank3": {
+            "hp": 225,
+            "atk": 75,
+            "def": 30,
+            "critic": 45,
+            "critic_dmg": 180,
+            "dodge": 0
+        },
+        "rank4": {
+            "hp": 450,
+            "atk": 150,
+            "def": 60,
+            "critic": 90,
+            "critic_dmg": 360,
+            "dodge": 0
+        },
+        "rank5": {
+            "hp": 750,
+            "atk": 250,
+            "def": 100,
+            "critic": 150,
+            "critic_dmg": 600,
+            "dodge": 0
+        }
+    },
+    "剁椒鱼头": {
+        "id": 2027,
+        "name": "剁椒鱼头",
+        "hp_bonus": 953,
+        "atk_bonus": 990,
+        "def_bonus": 1130,
+        "critic_bonus": 800,
+        "critic_dmg_bonus": 1000,
+        "dodge_bonus": 1000,
+        "attr_level": "a#b#s#c#c#a",
+        "rare": 4,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 250,
+            "atk": 5,
+            "def": 25,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 750,
+            "atk": 15,
+            "def": 75,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 1500,
+            "atk": 30,
+            "def": 150,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 2500,
+            "atk": 50,
+            "def": 250,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 100
+        }
+    },
+    "八仙过海闹罗汉": {
+        "id": 2028,
+        "name": "八仙过海闹罗汉",
+        "hp_bonus": 1070,
+        "atk_bonus": 956,
+        "def_bonus": 1000,
+        "critic_bonus": 800,
+        "critic_dmg_bonus": 1200,
+        "dodge_bonus": 1000,
+        "attr_level": "s#a#b#c#a#a",
+        "rare": 5,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 125,
+            "atk": 20,
+            "def": 10,
+            "critic": 0,
+            "critic_dmg": 60,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 375,
+            "atk": 60,
+            "def": 30,
+            "critic": 0,
+            "critic_dmg": 180,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 750,
+            "atk": 120,
+            "def": 60,
+            "critic": 0,
+            "critic_dmg": 360,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 1250,
+            "atk": 200,
+            "def": 100,
+            "critic": 0,
+            "critic_dmg": 600,
+            "dodge": 100
+        }
+    },
+    "片儿川": {
+        "id": 2029,
+        "name": "片儿川",
+        "hp_bonus": 1015,
+        "atk_bonus": 977,
+        "def_bonus": 1040,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1200,
+        "dodge_bonus": 600,
+        "attr_level": "b#a#b#a#a#c",
+        "rare": 3,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 75,
+            "atk": 25,
+            "def": 10,
+            "critic": 15,
+            "critic_dmg": 60,
+            "dodge": 0
+        },
+        "rank3": {
+            "hp": 225,
+            "atk": 75,
+            "def": 30,
+            "critic": 45,
+            "critic_dmg": 180,
+            "dodge": 0
+        },
+        "rank4": {
+            "hp": 450,
+            "atk": 150,
+            "def": 60,
+            "critic": 90,
+            "critic_dmg": 360,
+            "dodge": 0
+        },
+        "rank5": {
+            "hp": 750,
+            "atk": 250,
+            "def": 100,
+            "critic": 150,
+            "critic_dmg": 600,
+            "dodge": 0
+        }
+    },
+    "西湖醋鱼": {
+        "id": 2030,
+        "name": "西湖醋鱼",
+        "hp_bonus": 1030,
+        "atk_bonus": 981,
+        "def_bonus": 1000,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1000,
+        "dodge_bonus": 600,
+        "attr_level": "s#b#a#a#c#c",
+        "rare": 4,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 200,
+            "atk": 15,
+            "def": 20,
+            "critic": 15,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank3": {
+            "hp": 600,
+            "atk": 45,
+            "def": 60,
+            "critic": 45,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank4": {
+            "hp": 1200,
+            "atk": 90,
+            "def": 120,
+            "critic": 90,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank5": {
+            "hp": 2000,
+            "atk": 150,
+            "def": 200,
+            "critic": 150,
+            "critic_dmg": 0,
+            "dodge": 0
+        }
+    },
+    "烤乳猪": {
+        "id": 2031,
+        "name": "烤乳猪",
+        "hp_bonus": 1036,
+        "atk_bonus": 990,
+        "def_bonus": 960,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1000,
+        "dodge_bonus": 600,
+        "attr_level": "s#a#a#a#c#c",
+        "rare": 5,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 200,
+            "atk": 15,
+            "def": 20,
+            "critic": 15,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank3": {
+            "hp": 600,
+            "atk": 45,
+            "def": 60,
+            "critic": 45,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank4": {
+            "hp": 1200,
+            "atk": 90,
+            "def": 120,
+            "critic": 90,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank5": {
+            "hp": 2000,
+            "atk": 150,
+            "def": 200,
+            "critic": 150,
+            "critic_dmg": 0,
+            "dodge": 0
+        }
+    },
+    "鼎湖上素": {
+        "id": 2032,
+        "name": "鼎湖上素",
+        "hp_bonus": 951,
+        "atk_bonus": 1021,
+        "def_bonus": 1040,
+        "critic_bonus": 800,
+        "critic_dmg_bonus": 1000,
+        "dodge_bonus": 1000,
+        "attr_level": "s#b#s#c#c#a",
+        "rare": 5,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 250,
+            "atk": 5,
+            "def": 25,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 750,
+            "atk": 15,
+            "def": 75,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 1500,
+            "atk": 30,
+            "def": 150,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 2500,
+            "atk": 50,
+            "def": 250,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 100
+        }
+    },
+    "虾饺": {
+        "id": 2033,
+        "name": "虾饺",
+        "hp_bonus": 946,
+        "atk_bonus": 1024,
+        "def_bonus": 1040,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1000,
+        "dodge_bonus": 1000,
+        "attr_level": "b#b#b#a#c#a",
+        "rare": 4,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 175,
+            "atk": 10,
+            "def": 15,
+            "critic": 15,
+            "critic_dmg": 0,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 525,
+            "atk": 30,
+            "def": 45,
+            "critic": 45,
+            "critic_dmg": 0,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 1050,
+            "atk": 60,
+            "def": 90,
+            "critic": 90,
+            "critic_dmg": 0,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 1750,
+            "atk": 100,
+            "def": 150,
+            "critic": 150,
+            "critic_dmg": 0,
+            "dodge": 100
+        }
+    },
+    "冰糖葫芦": {
+        "id": 2034,
+        "name": "冰糖葫芦",
+        "hp_bonus": 1034,
+        "atk_bonus": 959,
+        "def_bonus": 1060,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1000,
+        "dodge_bonus": 1000,
+        "attr_level": "b#c#b#a#c#a",
+        "rare": 3,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 175,
+            "atk": 10,
+            "def": 15,
+            "critic": 15,
+            "critic_dmg": 0,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 525,
+            "atk": 30,
+            "def": 45,
+            "critic": 45,
+            "critic_dmg": 0,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 1050,
+            "atk": 60,
+            "def": 90,
+            "critic": 90,
+            "critic_dmg": 0,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 1750,
+            "atk": 100,
+            "def": 150,
+            "critic": 150,
+            "critic_dmg": 0,
+            "dodge": 100
+        }
+    },
+    "羊肉泡馍": {
+        "id": 2035,
+        "name": "羊肉泡馍",
+        "hp_bonus": 865,
+        "atk_bonus": 1073,
+        "def_bonus": 1080,
+        "critic_bonus": 800,
+        "critic_dmg_bonus": 1000,
+        "dodge_bonus": 1000,
+        "attr_level": "b#b#a#c#c#a",
+        "rare": 3,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 250,
+            "atk": 5,
+            "def": 25,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 750,
+            "atk": 15,
+            "def": 75,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 1500,
+            "atk": 30,
+            "def": 150,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 2500,
+            "atk": 50,
+            "def": 250,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 100
+        }
+    },
+    "粽子": {
+        "id": 2036,
+        "name": "粽子",
+        "hp_bonus": 870,
+        "atk_bonus": 1098,
+        "def_bonus": 1000,
+        "critic_bonus": 800,
+        "critic_dmg_bonus": 1200,
+        "dodge_bonus": 1000,
+        "attr_level": "c#b#c#c#a#a",
+        "rare": 2,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 125,
+            "atk": 20,
+            "def": 10,
+            "critic": 0,
+            "critic_dmg": 60,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 375,
+            "atk": 60,
+            "def": 30,
+            "critic": 0,
+            "critic_dmg": 180,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 750,
+            "atk": 120,
+            "def": 60,
+            "critic": 0,
+            "critic_dmg": 360,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 1250,
+            "atk": 200,
+            "def": 100,
+            "critic": 0,
+            "critic_dmg": 600,
+            "dodge": 100
+        }
+    },
+    "宫保鸡丁": {
+        "id": 2037,
+        "name": "宫保鸡丁",
+        "hp_bonus": 1010,
+        "atk_bonus": 1010,
+        "def_bonus": 950,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1000,
+        "dodge_bonus": 600,
+        "attr_level": "a#b#b#a#c#c",
+        "rare": 4,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 200,
+            "atk": 15,
+            "def": 20,
+            "critic": 15,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank3": {
+            "hp": 600,
+            "atk": 45,
+            "def": 60,
+            "critic": 45,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank4": {
+            "hp": 1200,
+            "atk": 90,
+            "def": 120,
+            "critic": 90,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank5": {
+            "hp": 2000,
+            "atk": 150,
+            "def": 200,
+            "critic": 150,
+            "critic_dmg": 0,
+            "dodge": 0
+        }
+    },
+    "麻婆豆腐": {
+        "id": 2038,
+        "name": "麻婆豆腐",
+        "hp_bonus": 858,
+        "atk_bonus": 1094,
+        "def_bonus": 1040,
+        "critic_bonus": 800,
+        "critic_dmg_bonus": 1200,
+        "dodge_bonus": 1000,
+        "attr_level": "b#a#b#c#a#a",
+        "rare": 4,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 125,
+            "atk": 20,
+            "def": 10,
+            "critic": 0,
+            "critic_dmg": 60,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 375,
+            "atk": 60,
+            "def": 30,
+            "critic": 0,
+            "critic_dmg": 180,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 750,
+            "atk": 120,
+            "def": 60,
+            "critic": 0,
+            "critic_dmg": 360,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 1250,
+            "atk": 200,
+            "def": 100,
+            "critic": 0,
+            "critic_dmg": 600,
+            "dodge": 100
+        }
+    },
+    "煲仔饭": {
+        "id": 2039,
+        "name": "煲仔饭",
+        "hp_bonus": 842,
+        "atk_bonus": 1163,
+        "def_bonus": 900,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1200,
+        "dodge_bonus": 600,
+        "attr_level": "c#s#c#a#a#c",
+        "rare": 3,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 75,
+            "atk": 25,
+            "def": 10,
+            "critic": 15,
+            "critic_dmg": 60,
+            "dodge": 0
+        },
+        "rank3": {
+            "hp": 225,
+            "atk": 75,
+            "def": 30,
+            "critic": 45,
+            "critic_dmg": 180,
+            "dodge": 0
+        },
+        "rank4": {
+            "hp": 450,
+            "atk": 150,
+            "def": 60,
+            "critic": 90,
+            "critic_dmg": 360,
+            "dodge": 0
+        },
+        "rank5": {
+            "hp": 750,
+            "atk": 250,
+            "def": 100,
+            "critic": 150,
+            "critic_dmg": 600,
+            "dodge": 0
+        }
+    },
+    "扬州炒饭": {
+        "id": 2040,
+        "name": "扬州炒饭",
+        "hp_bonus": 981,
+        "atk_bonus": 984,
+        "def_bonus": 1090,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1200,
+        "dodge_bonus": 600,
+        "attr_level": "b#a#b#a#a#c",
+        "rare": 4,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 75,
+            "atk": 25,
+            "def": 10,
+            "critic": 15,
+            "critic_dmg": 60,
+            "dodge": 0
+        },
+        "rank3": {
+            "hp": 225,
+            "atk": 75,
+            "def": 30,
+            "critic": 45,
+            "critic_dmg": 180,
+            "dodge": 0
+        },
+        "rank4": {
+            "hp": 450,
+            "atk": 150,
+            "def": 60,
+            "critic": 90,
+            "critic_dmg": 360,
+            "dodge": 0
+        },
+        "rank5": {
+            "hp": 750,
+            "atk": 250,
+            "def": 100,
+            "critic": 150,
+            "critic_dmg": 600,
+            "dodge": 0
+        }
+    },
+    "太极芋泥": {
+        "id": 2041,
+        "name": "太极芋泥",
+        "hp_bonus": 1036,
+        "atk_bonus": 987,
+        "def_bonus": 970,
+        "critic_bonus": 800,
+        "critic_dmg_bonus": 1200,
+        "dodge_bonus": 1000,
+        "attr_level": "b#b#b#c#a#a",
+        "rare": 3,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 125,
+            "atk": 20,
+            "def": 10,
+            "critic": 0,
+            "critic_dmg": 60,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 375,
+            "atk": 60,
+            "def": 30,
+            "critic": 0,
+            "critic_dmg": 180,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 750,
+            "atk": 120,
+            "def": 60,
+            "critic": 0,
+            "critic_dmg": 360,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 1250,
+            "atk": 200,
+            "def": 100,
+            "critic": 0,
+            "critic_dmg": 600,
+            "dodge": 100
+        }
+    },
+    "霸王别姬": {
+        "id": 2042,
+        "name": "霸王别姬",
+        "hp_bonus": 1036,
+        "atk_bonus": 987,
+        "def_bonus": 970,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1200,
+        "dodge_bonus": 600,
+        "attr_level": "a#s#b#a#a#c",
+        "rare": 5,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 75,
+            "atk": 25,
+            "def": 10,
+            "critic": 15,
+            "critic_dmg": 60,
+            "dodge": 0
+        },
+        "rank3": {
+            "hp": 225,
+            "atk": 75,
+            "def": 30,
+            "critic": 45,
+            "critic_dmg": 180,
+            "dodge": 0
+        },
+        "rank4": {
+            "hp": 450,
+            "atk": 150,
+            "def": 60,
+            "critic": 90,
+            "critic_dmg": 360,
+            "dodge": 0
+        },
+        "rank5": {
+            "hp": 750,
+            "atk": 250,
+            "def": 100,
+            "critic": 150,
+            "critic_dmg": 600,
+            "dodge": 0
+        }
+    },
+    "诗礼银杏": {
+        "id": 2043,
+        "name": "诗礼银杏",
+        "hp_bonus": 978,
+        "atk_bonus": 1015,
+        "def_bonus": 1000,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1000,
+        "dodge_bonus": 1000,
+        "attr_level": "s#a#a#a#c#a",
+        "rare": 5,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 175,
+            "atk": 10,
+            "def": 15,
+            "critic": 15,
+            "critic_dmg": 0,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 525,
+            "atk": 30,
+            "def": 45,
+            "critic": 45,
+            "critic_dmg": 0,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 1050,
+            "atk": 60,
+            "def": 90,
+            "critic": 90,
+            "critic_dmg": 0,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 1750,
+            "atk": 100,
+            "def": 150,
+            "critic": 150,
+            "critic_dmg": 0,
+            "dodge": 100
+        }
+    },
+    "小鸡炖蘑菇": {
+        "id": 2044,
+        "name": "小鸡炖蘑菇",
+        "hp_bonus": 1097,
+        "atk_bonus": 956,
+        "def_bonus": 950,
+        "critic_bonus": 800,
+        "critic_dmg_bonus": 1000,
+        "dodge_bonus": 1000,
+        "attr_level": "s#c#a#c#c#a",
+        "rare": 4,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 250,
+            "atk": 5,
+            "def": 25,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 750,
+            "atk": 15,
+            "def": 75,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 1500,
+            "atk": 30,
+            "def": 150,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 2500,
+            "atk": 50,
+            "def": 250,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 100
+        }
+    },
+    "重阳糕": {
+        "id": 2045,
+        "name": "重阳糕",
+        "hp_bonus": 916,
+        "atk_bonus": 1098,
+        "def_bonus": 900,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1200,
+        "dodge_bonus": 600,
+        "attr_level": "c#a#c#a#a#c",
+        "rare": 3,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 75,
+            "atk": 25,
+            "def": 10,
+            "critic": 15,
+            "critic_dmg": 60,
+            "dodge": 0
+        },
+        "rank3": {
+            "hp": 225,
+            "atk": 75,
+            "def": 30,
+            "critic": 45,
+            "critic_dmg": 180,
+            "dodge": 0
+        },
+        "rank4": {
+            "hp": 450,
+            "atk": 150,
+            "def": 60,
+            "critic": 90,
+            "critic_dmg": 360,
+            "dodge": 0
+        },
+        "rank5": {
+            "hp": 750,
+            "atk": 250,
+            "def": 100,
+            "critic": 150,
+            "critic_dmg": 600,
+            "dodge": 0
+        }
+    },
+    "腊八粥": {
+        "id": 2046,
+        "name": "腊八粥",
+        "hp_bonus": 1132,
+        "atk_bonus": 953,
+        "def_bonus": 900,
+        "critic_bonus": 800,
+        "critic_dmg_bonus": 1200,
+        "dodge_bonus": 1000,
+        "attr_level": "a#b#c#c#a#a",
+        "rare": 3,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 125,
+            "atk": 20,
+            "def": 10,
+            "critic": 0,
+            "critic_dmg": 60,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 375,
+            "atk": 60,
+            "def": 30,
+            "critic": 0,
+            "critic_dmg": 180,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 750,
+            "atk": 120,
+            "def": 60,
+            "critic": 0,
+            "critic_dmg": 360,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 1250,
+            "atk": 200,
+            "def": 100,
+            "critic": 0,
+            "critic_dmg": 600,
+            "dodge": 100
+        }
+    },
+    "牡丹燕菜": {
+        "id": 2047,
+        "name": "牡丹燕菜",
+        "hp_bonus": 995,
+        "atk_bonus": 1035,
+        "def_bonus": 910,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1200,
+        "dodge_bonus": 600,
+        "attr_level": "b#s#b#a#a#c",
+        "rare": 5,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 75,
+            "atk": 25,
+            "def": 10,
+            "critic": 15,
+            "critic_dmg": 60,
+            "dodge": 0
+        },
+        "rank3": {
+            "hp": 225,
+            "atk": 75,
+            "def": 30,
+            "critic": 45,
+            "critic_dmg": 180,
+            "dodge": 0
+        },
+        "rank4": {
+            "hp": 450,
+            "atk": 150,
+            "def": 60,
+            "critic": 90,
+            "critic_dmg": 360,
+            "dodge": 0
+        },
+        "rank5": {
+            "hp": 750,
+            "atk": 250,
+            "def": 100,
+            "critic": 150,
+            "critic_dmg": 600,
+            "dodge": 0
+        }
+    },
+    "莲花血鸭": {
+        "id": 2048,
+        "name": "莲花血鸭",
+        "hp_bonus": 989,
+        "atk_bonus": 1069,
+        "def_bonus": 830,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1200,
+        "dodge_bonus": 600,
+        "attr_level": "b#ss#b#a#a#c",
+        "rare": 5,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 75,
+            "atk": 25,
+            "def": 10,
+            "critic": 15,
+            "critic_dmg": 60,
+            "dodge": 0
+        },
+        "rank3": {
+            "hp": 225,
+            "atk": 75,
+            "def": 30,
+            "critic": 45,
+            "critic_dmg": 180,
+            "dodge": 0
+        },
+        "rank4": {
+            "hp": 450,
+            "atk": 150,
+            "def": 60,
+            "critic": 90,
+            "critic_dmg": 360,
+            "dodge": 0
+        },
+        "rank5": {
+            "hp": 750,
+            "atk": 250,
+            "def": 100,
+            "critic": 150,
+            "critic_dmg": 600,
+            "dodge": 0
+        }
+    },
+    "开水白菜": {
+        "id": 2049,
+        "name": "开水白菜",
+        "hp_bonus": 881,
+        "atk_bonus": 1054,
+        "def_bonus": 1100,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1000,
+        "dodge_bonus": 600,
+        "attr_level": "a#a#s#a#c#c",
+        "rare": 5,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 200,
+            "atk": 15,
+            "def": 20,
+            "critic": 15,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank3": {
+            "hp": 600,
+            "atk": 45,
+            "def": 60,
+            "critic": 45,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank4": {
+            "hp": 1200,
+            "atk": 90,
+            "def": 120,
+            "critic": 90,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank5": {
+            "hp": 2000,
+            "atk": 150,
+            "def": 200,
+            "critic": 150,
+            "critic_dmg": 0,
+            "dodge": 0
+        }
+    },
+    "蜜汁叉烧": {
+        "id": 2050,
+        "name": "蜜汁叉烧",
+        "hp_bonus": 1064,
+        "atk_bonus": 1000,
+        "def_bonus": 880,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1200,
+        "dodge_bonus": 600,
+        "attr_level": "b#a#c#a#a#c",
+        "rare": 4,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 75,
+            "atk": 25,
+            "def": 10,
+            "critic": 15,
+            "critic_dmg": 60,
+            "dodge": 0
+        },
+        "rank3": {
+            "hp": 225,
+            "atk": 75,
+            "def": 30,
+            "critic": 45,
+            "critic_dmg": 180,
+            "dodge": 0
+        },
+        "rank4": {
+            "hp": 450,
+            "atk": 150,
+            "def": 60,
+            "critic": 90,
+            "critic_dmg": 360,
+            "dodge": 0
+        },
+        "rank5": {
+            "hp": 750,
+            "atk": 250,
+            "def": 100,
+            "critic": 150,
+            "critic_dmg": 600,
+            "dodge": 0
+        }
+    },
+    "葱烧海参": {
+        "id": 2051,
+        "name": "葱烧海参",
+        "hp_bonus": 1030,
+        "atk_bonus": 981,
+        "def_bonus": 1000,
+        "critic_bonus": 800,
+        "critic_dmg_bonus": 1200,
+        "dodge_bonus": 1000,
+        "attr_level": "a#a#b#c#a#a",
+        "rare": 4,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 125,
+            "atk": 20,
+            "def": 10,
+            "critic": 0,
+            "critic_dmg": 60,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 375,
+            "atk": 60,
+            "def": 30,
+            "critic": 0,
+            "critic_dmg": 180,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 750,
+            "atk": 120,
+            "def": 60,
+            "critic": 0,
+            "critic_dmg": 360,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 1250,
+            "atk": 200,
+            "def": 100,
+            "critic": 0,
+            "critic_dmg": 600,
+            "dodge": 100
+        }
+    },
+    "吉利虾": {
+        "id": 2052,
+        "name": "吉利虾",
+        "hp_bonus": 1148,
+        "atk_bonus": 925,
+        "def_bonus": 960,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1000,
+        "dodge_bonus": 1000,
+        "attr_level": "ss#b#a#a#c#a",
+        "rare": 5,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 200,
+            "atk": 15,
+            "def": 20,
+            "critic": 15,
+            "critic_dmg": 0,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 600,
+            "atk": 45,
+            "def": 60,
+            "critic": 45,
+            "critic_dmg": 0,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 1200,
+            "atk": 90,
+            "def": 120,
+            "critic": 90,
+            "critic_dmg": 0,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 2000,
+            "atk": 150,
+            "def": 200,
+            "critic": 150,
+            "critic_dmg": 0,
+            "dodge": 100
+        }
+    },
+    "年年有余": {
+        "id": 2053,
+        "name": "年年有余",
+        "hp_bonus": 929,
+        "atk_bonus": 1061,
+        "def_bonus": 970,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1000,
+        "dodge_bonus": 1000,
+        "attr_level": "b#b#b#a#c#a",
+        "rare": 4,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 175,
+            "atk": 10,
+            "def": 15,
+            "critic": 15,
+            "critic_dmg": 0,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 525,
+            "atk": 30,
+            "def": 45,
+            "critic": 45,
+            "critic_dmg": 0,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 1050,
+            "atk": 60,
+            "def": 90,
+            "critic": 90,
+            "critic_dmg": 0,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 1750,
+            "atk": 100,
+            "def": 150,
+            "critic": 150,
+            "critic_dmg": 0,
+            "dodge": 100
+        }
+    },
+    "猫耳朵": {
+        "id": 2054,
+        "name": "猫耳朵",
+        "hp_bonus": 902,
+        "atk_bonus": 1054,
+        "def_bonus": 1050,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1000,
+        "dodge_bonus": 1000,
+        "attr_level": "b#b#b#a#c#a",
+        "rare": 2,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 175,
+            "atk": 10,
+            "def": 15,
+            "critic": 15,
+            "critic_dmg": 0,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 525,
+            "atk": 30,
+            "def": 45,
+            "critic": 45,
+            "critic_dmg": 0,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 1050,
+            "atk": 60,
+            "def": 90,
+            "critic": 90,
+            "critic_dmg": 0,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 1750,
+            "atk": 100,
+            "def": 150,
+            "critic": 150,
+            "critic_dmg": 0,
+            "dodge": 100
+        }
+    },
+    "双皮奶": {
+        "id": 2055,
+        "name": "双皮奶",
+        "hp_bonus": 911,
+        "atk_bonus": 1054,
+        "def_bonus": 1030,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1000,
+        "dodge_bonus": 1000,
+        "attr_level": "b#b#b#a#c#a",
+        "rare": 2,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 175,
+            "atk": 10,
+            "def": 15,
+            "critic": 15,
+            "critic_dmg": 0,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 525,
+            "atk": 30,
+            "def": 45,
+            "critic": 45,
+            "critic_dmg": 0,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 1050,
+            "atk": 60,
+            "def": 90,
+            "critic": 90,
+            "critic_dmg": 0,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 1750,
+            "atk": 100,
+            "def": 150,
+            "critic": 150,
+            "critic_dmg": 0,
+            "dodge": 100
+        }
+    },
+    "龙须酥": {
+        "id": 2056,
+        "name": "龙须酥",
+        "hp_bonus": 1020,
+        "atk_bonus": 1000,
+        "def_bonus": 960,
+        "critic_bonus": 800,
+        "critic_dmg_bonus": 1200,
+        "dodge_bonus": 1000,
+        "attr_level": "a#a#b#c#a#a",
+        "rare": 4,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 125,
+            "atk": 20,
+            "def": 10,
+            "critic": 0,
+            "critic_dmg": 60,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 375,
+            "atk": 60,
+            "def": 30,
+            "critic": 0,
+            "critic_dmg": 180,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 750,
+            "atk": 120,
+            "def": 60,
+            "critic": 0,
+            "critic_dmg": 360,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 1250,
+            "atk": 200,
+            "def": 100,
+            "critic": 0,
+            "critic_dmg": 600,
+            "dodge": 100
+        }
+    },
+    "子推燕": {
+        "id": 2057,
+        "name": "子推燕",
+        "hp_bonus": 1048,
+        "atk_bonus": 939,
+        "def_bonus": 1100,
+        "critic_bonus": 800,
+        "critic_dmg_bonus": 1000,
+        "dodge_bonus": 1000,
+        "attr_level": "s#c#s#c#c#a",
+        "rare": 4,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 250,
+            "atk": 5,
+            "def": 25,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 750,
+            "atk": 15,
+            "def": 75,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 1500,
+            "atk": 30,
+            "def": 150,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 2500,
+            "atk": 50,
+            "def": 250,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 100
+        }
+    },
+    "桃花粥": {
+        "id": 2058,
+        "name": "桃花粥",
+        "hp_bonus": 871,
+        "atk_bonus": 1094,
+        "def_bonus": 1010,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1000,
+        "dodge_bonus": 1000,
+        "attr_level": "b#b#b#a#c#a",
+        "rare": 3,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 175,
+            "atk": 10,
+            "def": 15,
+            "critic": 15,
+            "critic_dmg": 0,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 525,
+            "atk": 30,
+            "def": 45,
+            "critic": 45,
+            "critic_dmg": 0,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 1050,
+            "atk": 60,
+            "def": 90,
+            "critic": 90,
+            "critic_dmg": 0,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 1750,
+            "atk": 100,
+            "def": 150,
+            "critic": 150,
+            "critic_dmg": 0,
+            "dodge": 100
+        }
+    },
+    "冰糖湘莲": {
+        "id": 2059,
+        "name": "冰糖湘莲",
+        "hp_bonus": 1015,
+        "atk_bonus": 981,
+        "def_bonus": 1030,
+        "critic_bonus": 800,
+        "critic_dmg_bonus": 1200,
+        "dodge_bonus": 1000,
+        "attr_level": "b#a#b#c#a#a",
+        "rare": 4,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 125,
+            "atk": 20,
+            "def": 10,
+            "critic": 0,
+            "critic_dmg": 60,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 375,
+            "atk": 60,
+            "def": 30,
+            "critic": 0,
+            "critic_dmg": 180,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 750,
+            "atk": 120,
+            "def": 60,
+            "critic": 0,
+            "critic_dmg": 360,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 1250,
+            "atk": 200,
+            "def": 100,
+            "critic": 0,
+            "critic_dmg": 600,
+            "dodge": 100
+        }
+    },
+    "糖醋沅白": {
+        "id": 2060,
+        "name": "糖醋沅白",
+        "hp_bonus": 938,
+        "atk_bonus": 1061,
+        "def_bonus": 950,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1000,
+        "dodge_bonus": 1000,
+        "attr_level": "b#b#b#a#c#a",
+        "rare": 4,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 175,
+            "atk": 10,
+            "def": 15,
+            "critic": 15,
+            "critic_dmg": 0,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 525,
+            "atk": 30,
+            "def": 45,
+            "critic": 45,
+            "critic_dmg": 0,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 1050,
+            "atk": 60,
+            "def": 90,
+            "critic": 90,
+            "critic_dmg": 0,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 1750,
+            "atk": 100,
+            "def": 150,
+            "critic": 150,
+            "critic_dmg": 0,
+            "dodge": 100
+        }
+    },
+    "年糕": {
+        "id": 2061,
+        "name": "年糕",
+        "hp_bonus": 1014,
+        "atk_bonus": 968,
+        "def_bonus": 1070,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1200,
+        "dodge_bonus": 600,
+        "attr_level": "b#b#b#a#a#c",
+        "rare": 2,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 75,
+            "atk": 25,
+            "def": 10,
+            "critic": 15,
+            "critic_dmg": 60,
+            "dodge": 0
+        },
+        "rank3": {
+            "hp": 225,
+            "atk": 75,
+            "def": 30,
+            "critic": 45,
+            "critic_dmg": 180,
+            "dodge": 0
+        },
+        "rank4": {
+            "hp": 450,
+            "atk": 150,
+            "def": 60,
+            "critic": 90,
+            "critic_dmg": 360,
+            "dodge": 0
+        },
+        "rank5": {
+            "hp": 750,
+            "atk": 250,
+            "def": 100,
+            "critic": 150,
+            "critic_dmg": 600,
+            "dodge": 0
+        }
+    },
+    "太史五蛇羹": {
+        "id": 2062,
+        "name": "太史五蛇羹",
+        "hp_bonus": 1003,
+        "atk_bonus": 1015,
+        "def_bonus": 950,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1200,
+        "dodge_bonus": 600,
+        "attr_level": "b#s#b#a#a#c",
+        "rare": 3,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 75,
+            "atk": 25,
+            "def": 10,
+            "critic": 15,
+            "critic_dmg": 60,
+            "dodge": 0
+        },
+        "rank3": {
+            "hp": 225,
+            "atk": 75,
+            "def": 30,
+            "critic": 45,
+            "critic_dmg": 180,
+            "dodge": 0
+        },
+        "rank4": {
+            "hp": 450,
+            "atk": 150,
+            "def": 60,
+            "critic": 90,
+            "critic_dmg": 360,
+            "dodge": 0
+        },
+        "rank5": {
+            "hp": 750,
+            "atk": 250,
+            "def": 100,
+            "critic": 150,
+            "critic_dmg": 600,
+            "dodge": 0
+        }
+    },
+    "金银蹄髈": {
+        "id": 2063,
+        "name": "金银蹄髈",
+        "hp_bonus": 949,
+        "atk_bonus": 1046,
+        "def_bonus": 970,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1000,
+        "dodge_bonus": 600,
+        "attr_level": "a#a#b#a#c#c",
+        "rare": 3,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 200,
+            "atk": 15,
+            "def": 20,
+            "critic": 15,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank3": {
+            "hp": 600,
+            "atk": 45,
+            "def": 60,
+            "critic": 45,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank4": {
+            "hp": 1200,
+            "atk": 90,
+            "def": 120,
+            "critic": 90,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank5": {
+            "hp": 2000,
+            "atk": 150,
+            "def": 200,
+            "critic": 150,
+            "critic_dmg": 0,
+            "dodge": 0
+        }
+    },
+    "石子馍": {
+        "id": 2064,
+        "name": "石子馍",
+        "hp_bonus": 1100,
+        "atk_bonus": 907,
+        "def_bonus": 1110,
+        "critic_bonus": 800,
+        "critic_dmg_bonus": 1000,
+        "dodge_bonus": 1000,
+        "attr_level": "s#c#a#c#c#a",
+        "rare": 3,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 250,
+            "atk": 5,
+            "def": 25,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 750,
+            "atk": 15,
+            "def": 75,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 1500,
+            "atk": 30,
+            "def": 150,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 2500,
+            "atk": 50,
+            "def": 250,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 100
+        }
+    },
+    "三鲜脱骨鱼": {
+        "id": 2065,
+        "name": "三鲜脱骨鱼",
+        "hp_bonus": 906,
+        "atk_bonus": 1061,
+        "def_bonus": 1020,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1000,
+        "dodge_bonus": 1600,
+        "attr_level": "a#a#a#a#c#s",
+        "rare": 3,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 175,
+            "atk": 10,
+            "def": 15,
+            "critic": 15,
+            "critic_dmg": 0,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 525,
+            "atk": 30,
+            "def": 45,
+            "critic": 45,
+            "critic_dmg": 0,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 1050,
+            "atk": 60,
+            "def": 90,
+            "critic": 90,
+            "critic_dmg": 0,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 1750,
+            "atk": 100,
+            "def": 150,
+            "critic": 150,
+            "critic_dmg": 0,
+            "dodge": 100
+        }
+    },
+    "东璧龙珠": {
+        "id": 2066,
+        "name": "东璧龙珠",
+        "hp_bonus": 950,
+        "atk_bonus": 1039,
+        "def_bonus": 990,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1000,
+        "dodge_bonus": 600,
+        "attr_level": "s#a#a#a#c#c",
+        "rare": 3,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 125,
+            "atk": 20,
+            "def": 10,
+            "critic": 0,
+            "critic_dmg": 60,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 375,
+            "atk": 60,
+            "def": 30,
+            "critic": 0,
+            "critic_dmg": 180,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 750,
+            "atk": 120,
+            "def": 60,
+            "critic": 0,
+            "critic_dmg": 360,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 1250,
+            "atk": 200,
+            "def": 100,
+            "critic": 0,
+            "critic_dmg": 600,
+            "dodge": 100
+        }
+    },
+    "云托八鲜": {
+        "id": 2067,
+        "name": "云托八鲜",
+        "hp_bonus": 1088,
+        "atk_bonus": 968,
+        "def_bonus": 930,
+        "critic_bonus": 800,
+        "critic_dmg_bonus": 1200,
+        "dodge_bonus": 1000,
+        "attr_level": "a#a#b#c#a#a",
+        "rare": 3,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 125,
+            "atk": 20,
+            "def": 10,
+            "critic": 0,
+            "critic_dmg": 60,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 375,
+            "atk": 60,
+            "def": 30,
+            "critic": 0,
+            "critic_dmg": 180,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 750,
+            "atk": 120,
+            "def": 60,
+            "critic": 0,
+            "critic_dmg": 360,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 1250,
+            "atk": 200,
+            "def": 100,
+            "critic": 0,
+            "critic_dmg": 600,
+            "dodge": 100
+        }
+    },
+    "太白鸭": {
+        "id": 2068,
+        "name": "太白鸭",
+        "hp_bonus": 979,
+        "atk_bonus": 1050,
+        "def_bonus": 900,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1200,
+        "dodge_bonus": 600,
+        "attr_level": "b#s#b#a#a#c",
+        "rare": 5,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 75,
+            "atk": 25,
+            "def": 10,
+            "critic": 15,
+            "critic_dmg": 60,
+            "dodge": 0
+        },
+        "rank3": {
+            "hp": 225,
+            "atk": 75,
+            "def": 30,
+            "critic": 45,
+            "critic_dmg": 180,
+            "dodge": 0
+        },
+        "rank4": {
+            "hp": 450,
+            "atk": 150,
+            "def": 60,
+            "critic": 90,
+            "critic_dmg": 360,
+            "dodge": 0
+        },
+        "rank5": {
+            "hp": 750,
+            "atk": 250,
+            "def": 100,
+            "critic": 150,
+            "critic_dmg": 600,
+            "dodge": 0
+        }
+    },
+    "绍兴醉鸡": {
+        "id": 2069,
+        "name": "绍兴醉鸡",
+        "hp_bonus": 899,
+        "atk_bonus": 1065,
+        "def_bonus": 1025,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1000,
+        "dodge_bonus": 1000,
+        "attr_level": "b#b#b#a#c#a",
+        "rare": 4,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 175,
+            "atk": 10,
+            "def": 15,
+            "critic": 15,
+            "critic_dmg": 0,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 525,
+            "atk": 30,
+            "def": 45,
+            "critic": 45,
+            "critic_dmg": 0,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 1050,
+            "atk": 60,
+            "def": 90,
+            "critic": 90,
+            "critic_dmg": 0,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 1750,
+            "atk": 100,
+            "def": 150,
+            "critic": 150,
+            "critic_dmg": 0,
+            "dodge": 100
+        }
+    },
+    "混汤酒酿元宵": {
+        "id": 2070,
+        "name": "混汤酒酿元宵",
+        "hp_bonus": 1064,
+        "atk_bonus": 953,
+        "def_bonus": 1020,
+        "critic_bonus": 800,
+        "critic_dmg_bonus": 1200,
+        "dodge_bonus": 1000,
+        "attr_level": "b#b#b#c#a#a",
+        "rare": 3,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 125,
+            "atk": 20,
+            "def": 10,
+            "critic": 0,
+            "critic_dmg": 60,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 375,
+            "atk": 60,
+            "def": 30,
+            "critic": 0,
+            "critic_dmg": 180,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 750,
+            "atk": 120,
+            "def": 60,
+            "critic": 0,
+            "critic_dmg": 360,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 1250,
+            "atk": 200,
+            "def": 100,
+            "critic": 0,
+            "critic_dmg": 600,
+            "dodge": 100
+        }
+    },
+    "孟婆汤": {
+        "id": 2071,
+        "name": "孟婆汤",
+        "hp_bonus": 938,
+        "atk_bonus": 1037,
+        "def_bonus": 1020,
+        "critic_bonus": 800,
+        "critic_dmg_bonus": 1200,
+        "dodge_bonus": 1000,
+        "attr_level": "a#s#b#c#a#a",
+        "rare": 3,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 125,
+            "atk": 20,
+            "def": 10,
+            "critic": 0,
+            "critic_dmg": 60,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 375,
+            "atk": 60,
+            "def": 30,
+            "critic": 0,
+            "critic_dmg": 180,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 750,
+            "atk": 120,
+            "def": 60,
+            "critic": 0,
+            "critic_dmg": 360,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 1250,
+            "atk": 200,
+            "def": 100,
+            "critic": 0,
+            "critic_dmg": 600,
+            "dodge": 100
+        }
+    },
+    "糯米八宝鸭": {
+        "id": 2072,
+        "name": "糯米八宝鸭",
+        "hp_bonus": 938,
+        "atk_bonus": 1037,
+        "def_bonus": 1020,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1000,
+        "dodge_bonus": 1000,
+        "attr_level": "b#b#b#a#c#a",
+        "rare": 3,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 175,
+            "atk": 10,
+            "def": 15,
+            "critic": 15,
+            "critic_dmg": 0,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 525,
+            "atk": 30,
+            "def": 45,
+            "critic": 45,
+            "critic_dmg": 0,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 1050,
+            "atk": 60,
+            "def": 90,
+            "critic": 90,
+            "critic_dmg": 0,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 1750,
+            "atk": 100,
+            "def": 150,
+            "critic": 150,
+            "critic_dmg": 0,
+            "dodge": 100
+        }
+    },
+    "鬼城麻辣鸡": {
+        "id": 2073,
+        "name": "鬼城麻辣鸡",
+        "hp_bonus": 938,
+        "atk_bonus": 1037,
+        "def_bonus": 1020,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1000,
+        "dodge_bonus": 1000,
+        "attr_level": "b#b#b#a#c#a",
+        "rare": 3,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 175,
+            "atk": 10,
+            "def": 15,
+            "critic": 15,
+            "critic_dmg": 0,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 525,
+            "atk": 30,
+            "def": 45,
+            "critic": 45,
+            "critic_dmg": 0,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 1050,
+            "atk": 60,
+            "def": 90,
+            "critic": 90,
+            "critic_dmg": 0,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 1750,
+            "atk": 100,
+            "def": 150,
+            "critic": 150,
+            "critic_dmg": 0,
+            "dodge": 100
+        }
+    },
+    "川味火锅": {
+        "id": 2074,
+        "name": "川味火锅",
+        "hp_bonus": 1092,
+        "atk_bonus": 925,
+        "def_bonus": 1060,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1000,
+        "dodge_bonus": 600,
+        "attr_level": "s#b#s#a#c#c",
+        "rare": 5,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 200,
+            "atk": 15,
+            "def": 20,
+            "critic": 15,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank3": {
+            "hp": 600,
+            "atk": 45,
+            "def": 60,
+            "critic": 45,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank4": {
+            "hp": 1200,
+            "atk": 90,
+            "def": 120,
+            "critic": 90,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank5": {
+            "hp": 2000,
+            "atk": 150,
+            "def": 200,
+            "critic": 150,
+            "critic_dmg": 0,
+            "dodge": 0
+        }
+    },
+    "风生水起": {
+        "id": 2075,
+        "name": "风生水起",
+        "hp_bonus": 887,
+        "atk_bonus": 1017,
+        "def_bonus": 1200,
+        "critic_bonus": 800,
+        "critic_dmg_bonus": 1200,
+        "dodge_bonus": 1000,
+        "attr_level": "b#s#s#c#a#a",
+        "rare": 5,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 125,
+            "atk": 20,
+            "def": 10,
+            "critic": 0,
+            "critic_dmg": 60,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 375,
+            "atk": 60,
+            "def": 30,
+            "critic": 0,
+            "critic_dmg": 180,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 750,
+            "atk": 120,
+            "def": 60,
+            "critic": 0,
+            "critic_dmg": 360,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 1250,
+            "atk": 200,
+            "def": 100,
+            "critic": 0,
+            "critic_dmg": 600,
+            "dodge": 100
+        }
+    },
+    "飞龙汤": {
+        "id": 2076,
+        "name": "飞龙汤",
+        "hp_bonus": 770,
+        "atk_bonus": 1166,
+        "def_bonus": 1070,
+        "critic_bonus": 800,
+        "critic_dmg_bonus": 1200,
+        "dodge_bonus": 1000,
+        "attr_level": "b#ss#a#c#a#a",
+        "rare": 5,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 125,
+            "atk": 20,
+            "def": 10,
+            "critic": 0,
+            "critic_dmg": 60,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 375,
+            "atk": 60,
+            "def": 30,
+            "critic": 0,
+            "critic_dmg": 180,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 750,
+            "atk": 120,
+            "def": 60,
+            "critic": 0,
+            "critic_dmg": 360,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 1250,
+            "atk": 200,
+            "def": 100,
+            "critic": 0,
+            "critic_dmg": 600,
+            "dodge": 100
+        }
+    },
+    "蟹酿橙": {
+        "id": 2077,
+        "name": "蟹酿橙",
+        "hp_bonus": 1031,
+        "atk_bonus": 1025,
+        "def_bonus": 870,
+        "critic_bonus": 800,
+        "critic_dmg_bonus": 1000,
+        "dodge_bonus": 1000,
+        "attr_level": "ss#b#a#c#c#a",
+        "rare": 5,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 250,
+            "atk": 5,
+            "def": 25,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 750,
+            "atk": 15,
+            "def": 75,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 1500,
+            "atk": 30,
+            "def": 150,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 2500,
+            "atk": 50,
+            "def": 250,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 100
+        }
+    },
+    "桂花酒": {
+        "id": 2078,
+        "name": "桂花酒",
+        "hp_bonus": 852,
+        "atk_bonus": 1197,
+        "def_bonus": 800,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1000,
+        "dodge_bonus": 1000,
+        "attr_level": "b#a#c#a#c#a",
+        "rare": 4,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 175,
+            "atk": 10,
+            "def": 15,
+            "critic": 15,
+            "critic_dmg": 0,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 525,
+            "atk": 30,
+            "def": 45,
+            "critic": 45,
+            "critic_dmg": 0,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 1050,
+            "atk": 60,
+            "def": 90,
+            "critic": 90,
+            "critic_dmg": 0,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 1750,
+            "atk": 100,
+            "def": 150,
+            "critic": 150,
+            "critic_dmg": 0,
+            "dodge": 100
+        }
+    },
+    "月饼": {
+        "id": 2079,
+        "name": "月饼",
+        "hp_bonus": 1114,
+        "atk_bonus": 981,
+        "def_bonus": 850,
+        "critic_bonus": 1000,
+        "critic_dmg_bonus": 1000,
+        "dodge_bonus": 1000,
+        "attr_level": "a#c#c#a#c#a",
+        "rare": 3,
+        "rank1": {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "critic": 0,
+            "critic_dmg": 0,
+            "dodge": 0
+        },
+        "rank2": {
+            "hp": 175,
+            "atk": 10,
+            "def": 15,
+            "critic": 15,
+            "critic_dmg": 0,
+            "dodge": 10
+        },
+        "rank3": {
+            "hp": 525,
+            "atk": 30,
+            "def": 45,
+            "critic": 45,
+            "critic_dmg": 0,
+            "dodge": 30
+        },
+        "rank4": {
+            "hp": 1050,
+            "atk": 60,
+            "def": 90,
+            "critic": 90,
+            "critic_dmg": 0,
+            "dodge": 60
+        },
+        "rank5": {
+            "hp": 1750,
+            "atk": 100,
+            "def": 150,
+            "critic": 150,
+            "critic_dmg": 0,
+            "dodge": 100
+        }
+    }
+}
