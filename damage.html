@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+
+<html lang="zh-cn">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="食物语食魂膳具数值计算器">
+  <title>食物语计算器</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <link href="css/calc.css" rel="stylesheet">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="js/bswindow.js"></script>
+</head>
+
+<body>
+  <div class="card" style="margin:30px; padding:20px;">
+    <form>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputAtk">己方攻击</label>
+          <input type="number" step="1" min="1" class="form-control" id="inputAtk" placeholder="500">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputCriDmg">己方爆伤</label>
+          <input type="number" class="form-control" id="inputCriDmg" placeholder="0.00">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputRate">技能倍率</label>
+          <input type="number" class="form-control" id="inputRate" placeholder="1.0">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputDef">敌方防御</label>
+          <input type="number" step="1" min="0" required class="form-control" id="inputDef" placeholder="500" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+        </div>
+      </div>
+
+      <fieldset class="form-group">
+        <div class="row">
+          <legend class="col-form-label col-sm-2 pt-0">己方Buff</legend>
+          <div class="col-sm-10">
+            <div class="form-check  form-check-inline">
+              <input class="form-check-input" type="checkbox" name="buffs" id="buff25" value="0.25">
+              <label class="form-check-label" for="buff25">
+                攻击提升
+              </label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" name="buffs" id="buff50" value="0.5">
+              <label class="form-check-label" for="buff50">
+                狂暴
+              </label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" name="buffs" id="buffm30" value="-0.3">
+              <label class="form-check-label" for="buffm30">
+                攻击降低
+              </label>
+            </div>
+
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset class="form-group">
+        <div class="row">
+          <legend class="col-form-label col-sm-2 pt-0">敌方Buff</legend>
+          <div class="col-sm-10">
+            <div class="form-check  form-check-inline">
+              <input class="form-check-input" type="checkbox" name="debuffs" id="debuffm60" value="-0.6">
+              <label class="form-check-label" for="debuffm60">
+                防御降低
+              </label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" name="debuffs" id="debuff60" value="0.6">
+              <label class="form-check-label" for="debuff60">
+                防御提升
+              </label>
+            </div>
+
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset class="form-group">
+        <div class="row">
+          <legend class="col-form-label col-sm-2 pt-0">防御穿透</legend>
+          <div class="col-sm-10">
+            <div class="form-check  form-check-inline">
+              <input class="form-check-input" type="radio" name="penetrates" id="penetrate0" value="0" checked>
+              <label class="form-check-label" for="penetrate0">
+                0%
+              </label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="penetrates" id="penetrate30" value="0.3">
+              <label class="form-check-label" for="penetrate30">
+                30%
+              </label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="penetrates" id="penetrate45" value="0.45">
+              <label class="form-check-label" for="penetrate45">
+                45%
+              </label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="penetrates" id="penetrate60" value="0.6">
+              <label class="form-check-label" for="penetrate60">
+                60%
+              </label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="penetrates" id="penetrate100" value="1">
+              <label class="form-check-label" for="penetrate100">
+                100%
+              </label>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCri">
+          <label class="form-check-label" for="gridCri">
+            是否暴击
+          </label>
+        </div>
+      </div>
+      <div class="form-group">
+        <button type="button" id="btnCalc" class="btn btn-primary">计算</button>
+      </div>
+
+      <div class="form-row" id="resultForm" hidden>
+        <div class="form-group col-md-6">
+          <label for="resultNum">伤害预估</label>
+          <input type="number" class="form-control" id="resultNum" placeholder="" readonly>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="resultRange">伤害波动范围</label>
+          <input type="text" class="form-control" id="resultRange" placeholder="" readonly>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+<script>
+  $(function() {
+    $('[data-toggle="tooltip"]').tooltip()
+  });
+
+  function calc() {
+    $dmg = $atk * (1 + $atk_buff) * $skill_rate * (1 + $critic_dmg) * ($atk / ($def * $dfs_perc));
+    $dmg_low = ($dmg * 0.9).toFixed(0);
+    $dmg_high = ($dmg * 1.1).toFixed(0);
+    $dmg = $dmg.toFixed(0);
+
+    $("#resultNum").val($dmg);
+    $("#resultRange").val($dmg_low + "-" + $dmg_high);
+  }
+
+  $('#btnCalc').click(function() {
+    $atk = parseInt($('#inputAtk').val());
+    if(!$atk) $atk = 500;
+    $atk_buff = 0;
+    if ($("#buff25").prop("checked")) {
+      $atk_buff += 0.25;
+    }
+    if ($("#buffm30").prop("checked")) {
+      $atk_buff -= 0.3;
+    }
+    if ($("#buff50").prop("checked")) {
+      $atk_buff += 0.5;
+    }
+
+    $skill_rate = parseFloat($('#inputRate').val());
+    if(!$skill_rate) $skill_rate = 1;
+    $def = parseFloat($('#inputDef').val());
+    if(!$def) $def = 500;
+    $critic_dmg = parseFloat($('#inputCriDmg').val());
+    if(!$critic_dmg) $critic_dmg = 0;
+    if(!$("#gridCri").prop("checked")) {
+      $critic_dmg = 0;
+    }
+
+    $dfs_perc = 1.0;
+    if ($("#debuff60").prop("checked")) {
+      $dfs_perc += 0.6;
+    }
+    if ($("#debuffm60").prop("checked")) {
+      $dfs_perc -= 0.6;
+    }
+    if ($("#penetrate30").prop("checked")) {
+      $dfs_perc -= 0.3;
+    }
+    if ($("#penetrate45").prop("checked")) {
+      $dfs_perc -= 0.45;
+    }
+    if ($("#penetrate60").prop("checked")) {
+      $dfs_perc -= 0.6;
+    }
+    if ($("#penetrate100").prop("checked")) {
+      $dfs_perc -= 1;
+    }
+    if($dfs_perc < 0) $dfs_perc = 0;
+
+    calc();
+
+    $('#resultForm')[0].hidden = 0;
+
+    $('#resultNum').value = $atk;
+  });
+</script>
+
+</html>
