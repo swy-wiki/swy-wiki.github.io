@@ -4,8 +4,8 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="description" content="食物语食魂膳具数值计算器">
-  <title>食物语计算器</title>
+  <meta name="description" content="食物语伤害数值计算器">
+  <title>食物语伤害计算器</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
@@ -37,7 +37,7 @@
         </div>
         <div class="form-group col-md-6">
           <label for="inputDef">敌方防御</label>
-          <input type="number" step="1" min="0" required class="form-control" id="inputDef" placeholder="500" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+          <input type="number" step="1" min="0" required class="form-control" id="inputDef" placeholder="500" data-toggle="tooltip" data-placement="top" title="参考值：谦风八1435，金杏八995，胡桃八3480。(估测)">
         </div>
       </div>
 
@@ -61,6 +61,18 @@
               <input class="form-check-input" type="checkbox" name="buffs" id="buffm30" value="-0.3">
               <label class="form-check-label" for="buffm30">
                 攻击降低
+              </label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" name="buffs" id="buff18" value="0.18">
+              <label class="form-check-label" for="buff18">
+                战意爆发
+              </label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" name="buffs" id="buffm20" value="-0.2">
+              <label class="form-check-label" for="buffm20">
+                熊猫标记
               </label>
             </div>
 
@@ -158,7 +170,7 @@
   });
 
   function calc() {
-    $dmg = $atk * (1 + $atk_buff) * $skill_rate * (1 + $critic_dmg) * ($atk / ($def * $dfs_perc));
+    $dmg = $atk * (1 + $atk_buff) * $skill_rate * (1 + $critic_dmg) * ($atk / ($def * $dfs_perc + $atk));
     $dmg_low = ($dmg * 0.9).toFixed(0);
     $dmg_high = ($dmg * 1.1).toFixed(0);
     $dmg = $dmg.toFixed(0);
@@ -179,6 +191,12 @@
     }
     if ($("#buff50").prop("checked")) {
       $atk_buff += 0.5;
+    }
+    if ($("#buff18").prop("checked")) {
+      $atk_buff += 0.18;
+    }
+    if ($("#buffm20").prop("checked")) {
+      $atk_buff -= 0.2;
     }
 
     $skill_rate = parseFloat($('#inputRate').val());
